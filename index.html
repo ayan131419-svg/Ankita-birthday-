@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Wifey ❤️ | Ankita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts" id="hearts"></div>
+
+<header class="nav">
+  <div class="brand">For My Wifey <span>❤️</span></div>
+  <nav>
+    <button data-go="home">Home</button>
+    <button data-go="story">Our Story</button>
+    <button data-go="memories">Memories</button>
+    <button data-go="games">Games</button>
+    <button data-go="letter">Letter</button>
+    <button data-go="reasons">Reasons</button>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">A little surprise made just for you ✨</p>
+    <h1>Heyyy Wifey ❤️🧿</h1>
+    <p class="hero-sub">Today is all about the most beautiful, kind and precious person in my life.</p>
+    <h2>Happy 21st Birthday<br><span>Ankita</span> 💗</h2>
+    <button class="primary" id="openSurprise">Open Your Surprise 💌</button>
+  </div>
+  <div class="hero-photo">
+    <img src="images/photo1.jpg" alt="Ankita">
+  </div>
+</section>
+
+<section id="story" class="section">
+  <div class="section-title">
+    <p class="eyebrow">Our little story</p>
+    <h2>Three dates. One beautiful story. ❤️</h2>
+  </div>
+  <div class="timeline">
+    <article class="date-card">
+      <div class="date">11 APRIL</div>
+      <div class="icon">🌸</div>
+      <h3>Our First Meet</h3>
+      <p>The day our little journey started… and I am so glad it did.</p>
+    </article>
+    <article class="date-card">
+      <div class="date">19 JUNE</div>
+      <div class="icon">💍</div>
+      <h3>Our Anniversary</h3>
+      <p>The day our love got its own special date. Forever one of my favourites.</p>
+    </article>
+    <article class="date-card">
+      <div class="date">19 AUGUST</div>
+      <div class="icon">🎂</div>
+      <h3>Wifey Turns 21</h3>
+      <p>The day my favourite person officially became 21. 🥹❤️</p>
+    </article>
+  </div>
+</section>
+
+<section id="memories" class="section">
+  <div class="section-title">
+    <p class="eyebrow">Our beautiful memories</p>
+    <h2>A few moments I want to keep forever 📸</h2>
+  </div>
+  <div class="gallery">
+    <button class="photo-card" data-img="images/photo1.jpg"><img src="images/photo1.jpg" alt="Memory 1"></button>
+    <button class="photo-card" data-img="images/photo2.jpg"><img src="images/photo2.jpg" alt="Memory 2"></button>
+    <button class="photo-card" data-img="images/photo3.jpg"><img src="images/photo3.jpg" alt="Memory 3"></button>
+    <button class="photo-card" data-img="images/photo4.jpg"><img src="images/photo4.jpg" alt="Memory 4"></button>
+    <button class="photo-card" data-img="images/photo5.jpg"><img src="images/photo5.jpg" alt="Memory 5"></button>
+  </div>
+  <p class="hint">Tap any photo to see it bigger ✨</p>
+</section>
+
+<section id="games" class="section">
+  <div class="section-title">
+    <p class="eyebrow">Fun zone 😜</p>
+    <h2>Okay wifey, let's see if you can win some love points.</h2>
+  </div>
+  <div class="game-grid">
+    <div class="game-card">
+      <div class="game-icon">💗</div>
+      <h3>Love Quiz</h3>
+      <p>Three silly questions. No pressure… but your husband is judging. 😂</p>
+      <button class="primary small" id="quizBtn">Play Quiz</button>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">💋</div>
+      <h3>Catch the Kiss</h3>
+      <p>Tap the moving kiss 10 times. Your reward: unlimited virtual kisses. 😘</p>
+      <div class="catch-area" id="catchArea">
+        <button id="kiss" aria-label="Catch the kiss">💋</button>
+      </div>
+      <p id="score" class="score">Kisses caught: 0 / 10</p>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">😂</div>
+      <h3>Wifey Joke</h3>
+      <p id="joke">Why did my heart choose Ankita?</p>
+      <button class="primary small" id="jokeBtn">Reveal punchline</button>
+    </div>
+  </div>
+</section>
+
+<section id="letter" class="section letter-section">
+  <div class="envelope" id="envelope">
+    <div class="flap"></div>
+    <div class="letter-paper">
+      <p class="eyebrow">Straight from my heart ❤️</p>
+      <h2>A Letter For You</h2>
+      <p id="typedLetter"></p>
+    </div>
+  </div>
+  <button class="primary" id="letterBtn">Read My Heart 💌</button>
+</section>
+
+<section id="reasons" class="section">
+  <div class="section-title">
+    <p class="eyebrow">Because 21 is special…</p>
+    <h2>21 Reasons Why I Love You ❤️</h2>
+  </div>
+  <div class="reasons-grid" id="reasonsGrid"></div>
+</section>
+
+<section class="finale" id="finale">
+  <div class="finale-photo"><img src="images/photo5.jpg" alt="Ankita"></div>
+  <div>
+    <p class="eyebrow">One last thing…</p>
+    <h2>I Love You So Much ❤️</h2>
+    <h3>Happiest Birthday My Wifey 🧿💋</h3>
+    <p>Praying for our future together. 🥺✨</p>
+    <p>We spent our 21 years without each other, so we'll spend every year together. ❤️</p>
+    <div class="forever">Forever & Always ∞❤️</div>
+    <button class="heart-button" id="bigSurprise">Click here for a big surprise 💗</button>
+  </div>
+</section>
+</main>
+
+<div class="modal" id="photoModal">
+  <button class="close" data-close>×</button>
+  <img id="modalImg" src="" alt="Memory">
+</div>
+
+<div class="modal" id="quizModal">
+  <div class="quiz-box">
+    <button class="close" data-close>×</button>
+    <h2>Wifey Quiz 💗</h2>
+    <div id="quizContent"></div>
+  </div>
+</div>
+
+<div class="modal" id="surpriseModal">
+  <div class="surprise-box">
+    <button class="close" data-close>×</button>
+    <div class="big-heart">❤️</div>
+    <h2>You are my favourite person.</h2>
+    <p>No matter how many birthdays come, I want to keep choosing you. 🥹</p>
+    <p><b>Happy 21st, my Wifey. ❤️</b></p>
+  </div>
+</div>
+
+<footer>Made with too much love for Ankita ❤️</footer>
+<script src="script.js"></script>
+</body>
+</html>
